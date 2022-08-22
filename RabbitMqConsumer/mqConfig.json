@@ -1,0 +1,70 @@
+{
+  ////Rabbitmq 配置信息
+  //"HostName": "123.60.99.123",
+  //"Port": 5672, //端口
+  //"UserName": "tenant", //账号
+  //"Password": "tenant123", //密码
+  //"VirtualHost": "/", //虚拟主机
+  //"QueueName": "tenant_msg_12345678_ts00000006" //队列名称
+
+  //"HostName": "127.0.0.1",
+  //"Port": 5672, //端口
+  //"UserName": "guest", //账号
+  //"Password": "guest", //密码
+  //"VirtualHost": "/", //虚拟主机
+  //"QueueName": "tenant_msg_12345678_ts00000006" //队列名称
+
+  //"HostName": "123.60.56.5",
+  //"Port": 5672, //端口
+  //"UserName": "tenant", //账号
+  //"Password": "tenant", //密码
+  //"VirtualHost": "/", //虚拟主机
+  //"QueueName": "tenant_msg_538B5CB0_sc22020511", //队列名称
+
+  //百力化学 百力北厂
+  "HostName": "123.60.56.5",
+  "Port": 5672, //端口
+  "UserName": "tenant", //账号
+  "Password": "tenant", //密码
+  "VirtualHost": "/", //虚拟主机
+  "QueueName": "tenant_msg_9D02488B_sc20030014" //队列名称
+
+  ////山东飞源气体
+  //"HostName": "222.175.246.182",
+  //"Port": 5672, //端口
+  //"UserName": "admin", //账号
+  //"Password": "admin", //密码
+  //"VirtualHost": "/", //虚拟主机
+  //"QueueName": "tenant_msg_4FB5AE12_sc21040328" //队列名称
+
+  //广域化学
+  //"HostName": "123.60.56.5",
+  //"Port": 5672, //端口
+  //"UserName": "tenant", //账号
+  //"Password": "tenant", //密码
+  //"VirtualHost": "/", //虚拟主机
+  //"QueueName": "tenant_msg_7E921E89_sc22070767" //队列名称
+
+  //"HostName": "183.167.213.27",
+  //"Port": 9700, //端口
+  //"UserName": "admin", //账号
+  //"Password": "admin", //密码
+  //"VirtualHost": "/", //虚拟主机
+  //"QueueName": "tenant_msg_169BA2A8_sc22020510" //队列名称 
+
+  //"HostName": "58.222.230.250",
+  //"Port": 9997, //端口
+  //"UserName": "admin", //账号
+  //"Password": "admin", //密码
+  //"VirtualHost": "/", //虚拟主机
+  //"QueueName": "tenant_msg_E424C223_sc22020513" //队列名称
+
+
+  //"HostName": "123.60.56.5",
+  //"Port": 5672, //端口
+  //"UserName": "tenant", //账号
+  //"Password": "tenant", //密码
+  //"VirtualHost": "/", //虚拟主机
+  //"QueueName": "tenant_msg_130D716D_sc22020513" //队列名称
+
+}

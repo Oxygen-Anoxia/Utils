@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj" />
+    <ProjectReference Include="..\IIService\IService.csproj" />
+    <ProjectReference Include="..\Model\Model.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="InroadLinkBasf.Core.Log">
+      <HintPath>C:\Project\InroadLinkBasf.Core\Code\InroadLinkBasf.Core.Log\bin\Debug\netcoreapp3.1\InroadLinkBasf.Core.Log.dll</HintPath>
+    </Reference>
+    <Reference Include="InroadLinkBasf.Core.Model">
+      <HintPath>C:\Project\InroadLinkBasf.Core\Code\InroadLinkBasf.Core.Model\bin\Debug\netcoreapp3.1\InroadLinkBasf.Core.Model.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

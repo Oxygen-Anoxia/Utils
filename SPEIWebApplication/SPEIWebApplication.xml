@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SPEIWebApplication</name>
+    </assembly>
+    <members>
+        <member name="M:SPEIWebApplication.Controllers.Dpc.ChuZhou.DpcCzCommonServiceController.InitRikUnitisHazardValue">
+            <summary>
+            修改风险分析单元重大危险源标识
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SPEIWebApplication.Controllers.Dpc.ChuZhou.DpcCzCommonServiceController.InitDpcData">
+            <summary>
+            清空上传双预控数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SPEIWebApplication.Controllers.Dpc.ChuZhou.DpcCzCommonServiceController.SyncUpdateCheckTaskData">
+            <summary>
+            4.2 定时同步修改隐患排查任务数据
+            Author：Joyce.ren 2022-02-23
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SPEIWebApplication.Controllers.Dpc.ChuZhou.DpcCzCommonServiceController.SyncDelCheckData(System.String)">
+            <summary>
+            6.2 定时同步删除隐患排查信息数据
+            Author：Joyce.ren 2022-02-23
+            </summary>
+            <param name="res"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SPEIWebApplication.Controllers.SPEI.SPEIController.GetAllData">
+            <summary>
+            获取所有数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SPEIWebApplication.Controllers.SPEI.SPEIController.GetdroughtIntensity(System.String,System.Int32)">
+            <summary>
+            根据年份获取干旱烈度
+            </summary>
+            <param name="baseCode">基地代码</param>
+            <param name="years">年份</param>
+            <returns></returns>
+        </member>
+        <member name="M:SPEIWebApplication.Controllers.Tickets.authController.login(SPEIWebApplication.Controllers.Tickets.clsLoginParamModelYtwh)">
+            <summary>
+            登录接口
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:SPEIWebApplication.Controllers.Tickets.clsLoginParamModelYtwh">
+            <summary>
+            山东作业票通用——登录接口body参数
+            </summary>
+        </member>
+        <member name="P:SPEIWebApplication.Controllers.Tickets.clsLoginParamModelYtwh.username">
+            <summary>
+            账号
+            </summary>
+        </member>
+        <member name="P:SPEIWebApplication.Controllers.Tickets.clsLoginParamModelYtwh.password">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="T:SPEIWebApplication.Controllers.Tickets.clsLoginResponse">
+            <summary>
+            烟台万华——登录返回对象
+            </summary>
+        </member>
+        <member name="P:SPEIWebApplication.Controllers.Tickets.clsLoginResponse.code">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SPEIWebApplication.Controllers.Tickets.clsLoginResponse.msg">
+            <summary>
+            请求成功
+            </summary>
+        </member>
+        <member name="P:SPEIWebApplication.Controllers.Tickets.clsLoginResponse.data">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:SPEIWebApplication.Controllers.Tickets.clsLoginResponseData">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SPEIWebApplication.Controllers.Tickets.clsLoginResponseData.username">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SPEIWebApplication.Controllers.Tickets.clsLoginResponseData.token">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:SPEIWebApplication.Controllers.Tickets.workorderController.workTicket(System.Object)">
+            <summary>
+            2.上传作业票数据接口
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SPEIWebApplication.Controllers.Tickets.workorderController.ticketFile(System.String,Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            
+            </summary>
+            <param name="wid"></param>
+            <param name="file"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SPEIWebApplication.Controllers.Tickets.clsParkCommonResponse">
+            <summary>
+            园区-作业票通用上传返回类
+            </summary>
+        </member>
+        <member name="P:SPEIWebApplication.Controllers.Tickets.clsParkCommonResponse.code">
+            <summary>
+            成功200；认证失败401
+            </summary>
+        </member>
+        <member name="T:SPEIWebApplication.Filter.GlobalExceptionsFilter">
+            <summary>
+            全局异常错误日志（日志搭建）
+            </summary>
+        </member>
+        <member name="M:SPEIWebApplication.Filter.GlobalExceptionsFilter.WriteLog(System.String,System.Exception)">
+            <summary>
+            自定义返回格式
+            </summary>
+            <param name="throwMsg"></param>
+            <param name="ex"></param>
+            <returns></returns>
+        </member>
+        <member name="P:SPEIWebApplication.Filter.JsonErrorResponse.Message">
+            <summary>
+            生产环境的消息
+            </summary>
+        </member>
+        <member name="P:SPEIWebApplication.Filter.JsonErrorResponse.DevelopmentMessage">
+            <summary>
+            开发环境的消息
+            </summary>
+        </member>
+        <member name="M:SPEIWebApplication.Startup.ConfigureContainer(Autofac.ContainerBuilder)">
+            <summary>
+            autofac  直接用程序集引入，实现解耦
+            在主项目（InroadLinkBasf.Core）中无需引用Service层，只需IService
+            在Service层里，无需引入Repository层，只需IRepository
+            </summary>
+            <param name="builder"></param>
+        </member>
+        <member name="P:clsParkCommonResponsesd.code">
+            <summary>
+            成功200；认证失败401
+            </summary>
+        </member>
+    </members>
+</doc>

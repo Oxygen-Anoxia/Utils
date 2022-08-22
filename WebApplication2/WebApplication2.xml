@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApplication2</name>
+    </assembly>
+    <members>
+        <member name="M:WebApplication2.Controllers.SPEI.SPEIController.GetAllData">
+            <summary>
+            获取所有数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication2.Controllers.SPEI.SPEIController.GetdroughtIntensity(System.String,System.Int32)">
+            <summary>
+            根据年份获取干旱烈度
+            </summary>
+            <param name="baseCode">基地代码</param>
+            <param name="years">年份</param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication2.Controllers.TestController.TestDB(WebApplication2.Controllers.clsModel)">
+            <summary>
+            测试
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="P:WebApplication2.Controllers.clsModel.id">
+            <summary>
+            id
+            </summary>
+        </member>
+        <member name="P:WebApplication2.Controllers.clsModel.name">
+            <summary>
+            name
+            </summary>
+        </member>
+        <member name="P:WebApplication2.Controllers.clsModel.age">
+            <summary>
+            age
+            </summary>
+        </member>
+        <member name="T:WebApplication2.Filter.GlobalExceptionsFilter">
+            <summary>
+            全局异常错误日志（日志搭建）
+            </summary>
+        </member>
+        <member name="M:WebApplication2.Filter.GlobalExceptionsFilter.WriteLog(System.String,System.Exception)">
+            <summary>
+            自定义返回格式
+            </summary>
+            <param name="throwMsg"></param>
+            <param name="ex"></param>
+            <returns></returns>
+        </member>
+        <member name="P:WebApplication2.Filter.JsonErrorResponse.Message">
+            <summary>
+            生产环境的消息
+            </summary>
+        </member>
+        <member name="P:WebApplication2.Filter.JsonErrorResponse.DevelopmentMessage">
+            <summary>
+            开发环境的消息
+            </summary>
+        </member>
+        <member name="M:WebApplication2.Startup.ConfigureContainer(Autofac.ContainerBuilder)">
+            <summary>
+            autofac  直接用程序集引入，实现解耦
+            在主项目（InroadLinkBasf.Core）中无需引用Service层，只需IService
+            在Service层里，无需引入Repository层，只需IRepository
+            </summary>
+            <param name="builder"></param>
+        </member>
+    </members>
+</doc>

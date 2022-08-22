@@ -1,0 +1,39 @@
+{
+  //Rabbitmq 配置信息
+  //"HostName": "123.60.99.123",
+  //"Port": 5672, //端口
+  //"UserName": "tenant", //账号
+  //"Password": "tenant123", //密码
+  //"VirtualHost": "/", //虚拟主机
+  //"QueueName": "tenant_msg_12345678_ts00000006" //队列名称
+
+  "HostName": "127.0.0.1",
+  "Port": 5672, //端口
+  "UserName": "guest", //账号
+  "Password": "guest", //密码
+  "VirtualHost": "/", //虚拟主机
+  "QueueName": "tenant_msg_12345678_ts00000006" //队列名称
+
+  //"HostName": "123.60.56.5",
+  //"Port": 5672, //端口
+  //"UserName": "tenant", //账号
+  //"Password": "tenant", //密码
+  //"VirtualHost": "/", //虚拟主机
+  //"QueueName": "tenant_msg_9D02488B_sc20030014", //队列名称
+
+  //"HostName": "123.60.56.5",
+  //"Port": 5672, //端口
+  //"UserName": "tenant", //账号
+  //"Password": "tenant", //密码
+  //"VirtualHost": "/", //虚拟主机
+  //"QueueName": "tenant_msg_0E936D2D_sc20030015" //队列名称
+
+  //"HostName": "123.60.56.5",
+  //"Port": 5672, //端口
+  //"UserName": "tenant", //账号
+  //"Password": "tenant", //密码
+  //"VirtualHost": "/", //虚拟主机
+  //"QueueName": "tenant_msg_130D716D_sc22020513" //队列名称
+
+
+}
