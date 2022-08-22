@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
+using System.Xml;
 
 namespace FieldValidationLibrary
 {
@@ -40,6 +41,7 @@ namespace FieldValidationLibrary
         ///（UPDATE_BY:字符）： 修改人（必填）
         /// </summary>
         [Newtonsoft.Json.JsonIgnore]
+        [System.Xml.Serialization.XmlIgnore]
         public string updateBy { get; set; }
 
 

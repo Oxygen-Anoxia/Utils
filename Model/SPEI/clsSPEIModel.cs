@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -13,6 +14,8 @@ namespace Model.SPEI
         /// </summary>
         public string baseCode { get; set; }
 
+        //[JsonProperty("SFKZZ(K)S")]
+        [JsonIgnore]
         public int yaers { get; set; }
 
         public int months { get; set; }
